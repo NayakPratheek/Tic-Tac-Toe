@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(144, 107, 155, 0.71);
+    text-align: center;
+}
+
+.main {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 3.4rem;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.385);
+}
+
+button:hover {
+    background-color: rgba(79, 76, 76, 0.44);
+    transition: 0.3s;
+}
