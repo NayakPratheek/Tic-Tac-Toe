@@ -43,8 +43,11 @@ button:hover {
     transition: 0.3s;
 }
 
-#cls {
+#reset {
     margin: 10px;
-    padding: 8px;
-    border-radius: 10px;
+    padding: 0.8rem;
+    border-radius: 7px;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.707);
+    color: white;
 }
